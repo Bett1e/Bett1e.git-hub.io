@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="shortcut icon" href="img/logo2.png" />
+    <title>Fitness Go</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+              <ul class="nav justify-content-lg-center justify-content-sm-end">
+                <li class="nav-item">
+                  <a
+                    role="button "
+                    class="nav-link btn-primary btn-warning align-self-center btn-block btn-lg"
+                    href="#galareya"
+                    >Фотогалерея</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    role="button "
+                    class="nav-link btn-primary btn-warning align-self-center btn-block btn-lg"
+                    href="#contacti"
+                    >Контакты</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    role="button "
+                    class="nav-link btn-primary btn-warning align-self-center btn-block btn-lg"
+                    href="#eat"
+                    >Фитнессбар</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="fhotos">
+      <div class="container">
+        <div class="works_1 clearfix" id="galareya">
+          <img src="img/fhotos/10.jpg" alt="Фото" />
+          <img src="img/fhotos/18.jpg" alt="Фото" />
+        </div>
+        <div class="works_2 clearfix">
+          <img src="img/fhotos/13.jpg" alt="Фото" />
+          <img src="img/fhotos/16.jpg" alt="Фото" />
+        </div>
+        <div class="works_3 clearfix">
+          <img src="img/fhotos/20.jpg" alt="Фото" />
+          <img src="img/fhotos/17.jpg" alt="Фото" />
+        </div>
+      </div>
+    </section>
+    <section class="fitbar">
+      <div class="container">
+        <img src="img/fhotos/fitbar.jpg" alt="Печеньки" id="eat" clearfix />
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <div class="h2" id="contacti">Наши контакты</div>
+        <p>
+          Адрес:г.Краснодар,ул.Хлебосольная16 Телефон:89181115570 ИП:Мололкин
+        </p>
+        <div class="row">
+          <div class="col-md-4 offset-md-1 col-lg-4 offset-lg-1">
+            <div class="form">
+              <p class="form-header text-center">
+                Введите свои контакты
+              </p>
+              <form action="mailto:bryant.24@mail.ru">
+                <input
+                  type="name"
+                  class="form-control input-lg"
+                  placeholder="Ваше Имя"
+                  pattern="^[А-Яа-яЁё]+$"
+                  maxlength="15"
+                  required
+                />
+                <input
+                  type="tel"
+                  class="form-control input-lg"
+                  placeholder="Ваш Телефон"
+                  pattern="+[0-9]{10,13}"
+                  required
+                />
+                <input
+                  type="email"
+                  class="form-control input-lg"
+                  placeholder="Ваш email"
+                  maxlength="40"
+                />
+                <button class="btn btn-warning btn-lg btn-block form-btn">
+                  Связаться с нами
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 offset-md-2 col-lg-4 offset-lg-2">
+            <ul class="nav flex-lg-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="https://vk.com/fitnessgo23"
+                  target="_blank"
+                  >Вконтакте</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/fitnessgo_23/"
+                  target="_blank"
+                  >Инстаграм</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:bryant.24@mail.com"> Почта</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="tel:+79181115570"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Whatsup</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 offset-md-4 col-lg-4 offset-lg-4">
+            <div class="h3">Наше местоположение</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <script
+        type="text/javascript"
+        charset="utf-8"
+        async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad571db99b7fb70345eebcac37af86ab1c33764231e0a0b8433243948913e85f0&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
+      ></script>
+    </footer>
+    <script src="js/bootstrap.js "></script>
+  </body>
+</html>
